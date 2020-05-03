@@ -1,16 +1,11 @@
-{{ if (isset .Params "type") }}
-	{{ $HeaderPrefix := "Sites I've Built &gt " }}
-{{ else }}
-	{{ $HeaderPrefix := "" }}
-{{ end }}
 <header>
     <div class="header header-frame">
         <div>
-          {{with .Title}}
-            <div class="header__title">
-							Sites I've Built &gt {{.}}
-						</div>
-          {{end}}
+            {{with .Title}}
+                <div class="header__title">
+                    {{.}}
+                </div>
+            {{end}}
             {{with .Description}}
                 <div class="header__description">{{.}}</div>
             {{end}}
