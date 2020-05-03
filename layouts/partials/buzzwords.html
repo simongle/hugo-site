@@ -1,0 +1,7 @@
+<div class="featured-post">
+  <ul class="featured-post__tags">
+      {{ range $taxonomyname, $taxonomyentries := .Site.Taxonomies.tags }}
+          <li><a href="{{ $.Site.BaseURL }}/tags/{{$taxonomyname | urlize}}">{{ $taxonomyname }}</a></li>
+      {{end}}
+  </ul>
+</div>
