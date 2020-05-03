@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Simon Glenn-Gregg"
+theme = ["origin"]
+
+[params]
+  description = "simple hugo theme"
+  featured = true
+  cssonly = false
