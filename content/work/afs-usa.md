@@ -1,6 +1,6 @@
 ---
 title: "AFS-USA"
-date: 2020-05-03T13:14:49-04:00
+date: 2020-02-03T13:14:49-04:00
 draft: false
 image: thumbs/afs-usa.png
 tags: ['bash']

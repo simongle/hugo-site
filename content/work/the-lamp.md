@@ -1,6 +1,6 @@
 ---
 title: "The Lamp"
-date: 2020-05-03T13:39:20-04:00
+date: 2020-02-03T13:39:20-04:00
 draft: false
 tags: ['PHP', 'Wordpress', 'Javascript', 'SEO']
 ---
